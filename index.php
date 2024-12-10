@@ -34,6 +34,20 @@
 				$controller->show_data();
 				break;
 
+			case 'edit': // Route baru untuk fitur Edit Form
+					$controller->edit();
+					break;
+
+			case 'update':
+					$controller->update();
+					break;
+			
+			case 'delete':
+					$controller = new \Controllers\Mahasiswa();
+					$controller->delete();
+					break;
+					
+			
 			default : 
 				$controller->index();
 				break;
