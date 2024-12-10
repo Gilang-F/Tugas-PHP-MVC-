@@ -11,7 +11,7 @@
             display: flex;
             flex-direction: column;
             justify-content: center;
-            background-color: #f8f9fa; /* Warna latar belakang yang lembut */
+            background-color: #f8f9fa;
         }
         .navbar-brand {
             font-weight: bold;
@@ -20,13 +20,13 @@
             display: flex;
             justify-content: center;
             align-items: center;
-            min-height: calc(100vh - 56px); /* Tinggi layar dikurangi tinggi navbar */
+            min-height: calc(100vh - 56px);
         }
         .card {
             border-radius: 10px;
         }
         .form-group {
-            margin-bottom: 1.5rem; /* Jarak antar elemen form */
+            margin-bottom: 1.5rem;
         }
     </style>
 </head>
